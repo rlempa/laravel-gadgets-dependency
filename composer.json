@@ -1,0 +1,29 @@
+{
+  "name": "rlempa/laravel-gadgets-dependency",
+  "description": "This package provides a possibility to lazy load dependencies using attribute.",
+  "homepage": "https://github.com/rlempa/laravel-gadgets-dependency",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": "^8.3"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.21",
+    "pestphp/pest": "^2.34"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rlempa\\Gadgets\\Dependency\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Rlempa\\Gadgets\\Dependency\\Tests\\": "tests"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
